@@ -1,0 +1,38 @@
+/* Navbar Section */
+.navbar {
+  background-color:#286178;
+  color: white;
+  font-size: large;
+}
+/* Logo For Navbar */
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+#box1,
+#box2{
+    display: inline-block;
+}
+.im{
+    max-width: 200px;
+    max-height: 175px;
+}
+body{
+    /* The image used */
+    background-image: url("blue crowd.png");
+    background-attachment: fixed;
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+/* Navbar Outline */
+.navbar .navbar-toggler {
+  outline: none;
+}
+
