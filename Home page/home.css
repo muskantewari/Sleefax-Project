@@ -27,8 +27,26 @@ body{
     /* Center and scale the image nicely */
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
   }
-
+  @media screen and (max-width: 424px) {
+    #txt{
+      font-size: smaller;
+    }
+    .im {
+      width:550 px;
+      height:150px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    #txt{
+      font-size: smaller;
+    }
+    .im {
+      width:550 px;
+      height:120px;
+    }
+  }
 
 
 /* Navbar Outline */
