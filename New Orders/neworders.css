@@ -1,0 +1,122 @@
+.navbar {
+    color: Black;
+    font-size: large;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+  }
+
+  body{
+    overflow-x: hidden;
+    background-color: #F9F9F9;
+  }
+  /* Logo For Navbar */
+  .logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  .navbar ul li a {
+    color: black !important;
+    font-weight: bolder;
+}
+.navbar ul li a.active{
+    color: #296178 !important;
+}
+#smaller-border {
+    height:2px;
+    width: 4vh;
+    background-color:  #296178;
+    border-radius: 5px;
+  }
+
+input[type=text] {
+text-align: center;
+height: 5vh;
+  padding: 6px;
+  font-size: 17px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0D506E; 
+  border-right: none;
+  color: #948585;
+  background-color: white;
+  border-bottom-left-radius:40px;
+    -moz-border-bottom-left-radius:40px;
+    -webkit-border-bottom-left-radius:40px;
+    border-top-left-radius:40px;
+    -moz-top-bottom-left-radius:40px;
+    -webkit-top-bottom-left-radius:40px;
+}
+
+.search-container button {
+    border-bottom-right-radius:40px;
+    -moz-border-bottom-right-radius:40px;
+    -webkit-border-bottom-right-radius:40px;
+    border-top-right-radius:40px;
+    -moz-top-right-radius:40px;
+    -webkit-top-right-radius:40px;
+  text-align: center;
+  padding: 4px 12px;
+  height: 5vh;
+  background: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0D506E; 
+  border-left: none;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+table{ 
+    border-collapse:separate; 
+    border-spacing: 0 15px; 
+    } 
+
+td{ 
+    text-align: center  ; 
+} 
+tr{
+    background-color: white;
+    height: 10vh;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);   
+}
+.car{
+    background-color:white; 
+    height: 80vh; 
+    width:35vh;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0D506E;
+}
+.od{
+    border-style:solid; 
+    border-width:1px; 
+    border-color:#0D506E; 
+    height: 8vh; 
+    font-size: larger;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);   
+}
+tr:hover td{
+    border-style:solid; 
+    border-width:3px; 
+    border-color:#0D506E; 
+    border-left: none;
+    border-right: none;
+}
+tr:hover td:first-child{
+    border-style:solid; 
+    border-width:3px; 
+    border-color:#0D506E; 
+    border-right: none;
+}
+tr:hover td:last-child{
+    border-style:solid; 
+    border-width:3px; 
+    border-color:#0D506E; 
+    border-left: none;
+}
