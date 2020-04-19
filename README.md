@@ -11,3 +11,6 @@ https://muskantewari.github.io/Sleefax-Project/Completed%20Orders/completedorder
 
 Order History:
 https://muskantewari.github.io/Sleefax-Project/Order%20History/orderhistory
+
+Sign Up (Page 1):
+https://muskantewari.github.io/Sleefax-Project/SignUp%20page1/signup1
