@@ -22,6 +22,6 @@ Sign Up (Page 3):
 https://muskantewari.github.io/Sleefax-Project/SignUp%20page3/signup3
 
 Sign Up (Page 4):
-https://muskantewari.github.io/Sleefax-Project/SignUp%20page1/signup4
+https://muskantewari.github.io/Sleefax-Project/SignUp%20page4/signup4
 
 
