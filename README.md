@@ -3,8 +3,8 @@
 Login page: 
 https://muskantewari.github.io/Sleefax-Project/Login%20page/login
 
-Home page:
-https://muskantewari.github.io/Sleefax-Project/Home%20page/home
+New Orders:
+https://muskantewari.github.io/Sleefax-Project/New%20Orders/neworders
 
 Order dashboard:
 https://muskantewari.github.io/Sleefax-Project/Orders/orders
