@@ -1,5 +1,27 @@
+@media only screen and (max-width: 600px) {
+  #per{
+    display: none;
+  }
+  #per2{
+    display: none;
+  }
+  .ims{
+    width: 17vh;
+    height: 7vh;
+  }
+  #ims1{
+       position: relative;
+       left: 70px;
+  }
+  #ims2{
+    position: relative;
+    left: 30px;
+}
+}
+
+
 body{
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 .navbar {
     color: Black;
@@ -21,12 +43,15 @@ body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:2px;
+    height:4px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
   }  
 
+.ims{
+  display: inline-block;
+}
 /* Login Form */
 #loginForm {
     background-color: white;
@@ -132,5 +157,4 @@ body{
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
       };
-  
-  
+

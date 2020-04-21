@@ -23,7 +23,7 @@
     color: #296178 !important;
 }
 #smaller-border {
-    height:2px;
+    height:4px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
@@ -78,6 +78,7 @@ table{
 
 td{ 
     text-align: center  ; 
+    vertical-align: middle;
 } 
 tr{
     background-color: white;
@@ -87,7 +88,7 @@ tr{
 .car{
     background-color:white; 
     height: 80vh; 
-    width:35vh;
+    width:30vh;
     border-radius: 15px;
     border-style: solid;
     border-width: 2px;
@@ -97,7 +98,7 @@ tr{
     border-style:solid; 
     border-width:1px; 
     border-color:#0D506E; 
-    height: 8vh; 
+    height: 10vh; 
     font-size: larger;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);   
 }

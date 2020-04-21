@@ -1,3 +1,14 @@
+@media only screen and (max-width: 600px) {
+  .consignup1{
+    margin-right: 50px;
+  }
+  .consignup2{
+    margin-right: 60px;
+  }
+  .consignup3{
+    margin-right: 60px;
+  }
+}
 .navbar {
     color: Black;
     font-size: large;
@@ -18,10 +29,13 @@
     color: #296178 !important;
 }
 #smaller-border {
-    height:2px;
+    height:4px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
+  }
+  body{
+    overflow-x: hidden;
   }
   
   #pho{
@@ -33,7 +47,7 @@
   /* Next Button */
 .btn-sleefax {
     height: 40px;
-    width: 150px;
+    width: 120px;
     padding: 5px 5px;
     color: white;
     font-weight: bolder;

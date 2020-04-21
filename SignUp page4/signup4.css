@@ -1,3 +1,15 @@
+@media only screen and (max-width: 600px) {
+  .consignup1{
+    margin-right: 20px;
+  }
+  .consignup2{
+    margin-right: 30px;
+  }
+  .consignup3{
+    margin-right: 30px;
+  }
+}
+
 .navbar {
     color: Black;
     font-size: large;
@@ -18,7 +30,7 @@
     color: #296178 !important;
 }
 #smaller-border {
-    height:2px;
+    height:4px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
