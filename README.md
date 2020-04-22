@@ -29,3 +29,6 @@ https://muskantewari.github.io/Sleefax-Project/Settings%20Basic%20Information/ba
 
 Settings (Change Password)
 https://muskantewari.github.io/Sleefax-Project/Settings%20Change%20Password/changepassword
+
+Settings (Pricing)
+https://muskantewari.github.io/Sleefax-Project/Settings%20Pricing/pricing
