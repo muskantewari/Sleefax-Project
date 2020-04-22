@@ -26,3 +26,6 @@ https://muskantewari.github.io/Sleefax-Project/SignUp%20page4/signup4
 
 Settings (Basic Information)
 https://muskantewari.github.io/Sleefax-Project/Settings%20Basic%20Information/basicinfo
+
+Settings (Change Password)
+https://muskantewari.github.io/Sleefax-Project/Settings%20Change%20Password/changepassword
