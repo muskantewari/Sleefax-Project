@@ -1,5 +1,7 @@
 @media only screen and (max-width: 600px){
-
+  #smaller-border{
+    display: hide;
+  }
 }
 
 .navbar {

@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Sign Up 1</title>
-
+    <title>Basic Information</title>
     <!-- Linking Bootstrap and CSS -->
     <link rel="icon" href="logo.jpeg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -17,11 +16,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="signup1.css">
+    <link rel="stylesheet" href="basicinfo.css">
 </head>
     <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light" style="background-color: white;">
 
     <!-- Navbar Brand -->
     <a href="index.html" class="navbar-brand">
@@ -41,106 +40,105 @@
         <div class="navbar-nav ml-auto">
             <ul class="navbar-nav ml-auto"  id="navbarCollapse">
                 <li class="nav-item">
-                  <a class="nav-link mx-auto" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mx-auto" href="#">Help</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active mx-auto" href="#">Sign up</a>
-                    <div class="mx-auto" id="smaller-border"></div>
+                    <a class="nav-link mx-auto" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link mx-auto" href="#">Login</a>
+                    <a class="nav-link  mx-auto" href="#">Order History</a>
+              
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active mx-auto" href="#">Profile</a>
+                    <div class="mx-auto" id="smaller-border"></div>
                   </li>
               </ul> 
         </div>
     </div>
 </nav>
+<div class="row">
+<div class="col-12 col-md-3 sidenav">
+    <div class="row justify-content-left mt-5 ml-4" style="font-size:45px; font-weight: bolder;" id="first">
+        Settings
+    </div>
+    <div class="ml-4 mt-3 mb-2" style="height: 2px; background-color:#B1B0B0;">
 
-<div class="container" >
-    <div class="row justify-content-center mt-3">
-        <h3 class="mt-2 text-center" style="color: #3F8FB0; font-weight: bolder;">
-            Sign Up
-        </h3>
     </div>
-    <div class="row justify-content-center mt-4">
-        <img src="Group 35.png" id="pho">
-    </div>
-    <div class="row justify-content-center mt-3">
-        <h4 class="mt-4 text-center mb-5" style="font-weight: bolder;">
-            Personal Information
-        </h4>
+    <div >
+      <table class="ml-4 mt-2" style="table-layout: fixed; width: 100%;">
+
+      <tbody>
+
+        <div class="row justify-content-center">
+          <tr class="navi">
+            <td colspan="2" style="text-align: left; "><a class="active" href="basicinfo.html" style="color: black;">Basic Infromation</a></td>
+          </tr>
+        </div>
+
+        <div class="row justify-content-center">
+          <tr class="navi">
+            <td colspan="2" style="text-align: left;"><a href="changepassword.html">Change Password</a></td>
+          </tr>
+        </div>
+
+        <div class="row justify-content-center">
+          <tr class="navi">
+            <td colspan="2" style="text-align: left;"><a href="pricing.html">Pricing</a></td>
+          </tr>
+        </div>
+      </tbody>
+      
+      </table>
     </div>
 </div>
-
-<div class="container" style="max-width: 95vh; padding: 30px;" >
-    <form id="SignUpForm1" method="POST">
-        <div class="row">
-        <div class="form-group col-12 col-sm-5">
-            <div class="row justify-content-left">
-                <h5><label>Full Name</label></h5>
+<div class="col-12 col-md-5">
+    <div class="setcard container">
+        <div class="row justify-content-center">
+            <div class="con mt-5">
+            <div class="row justify-content-center">
+               <img src="shop.png" style="height:15vh;width:15vh;"> 
             </div>
-            <div class="row justify-content-left">
-                <input type="text" class="fo form-control">
+            <div class="row justify-content-center">
+                <button class="up" type="submit">EDIT</button>
             </div>
+           </div>
+           </div>
+        <div class="row justify-content-left mt-4">
+            <h5><label>Full Name</label></h5>
         </div>
-        <div class="col-12 col-sm-7"></div>
+        <div class="row justify-content-left">
+            <input type="text" class="fo form-control">
+        </div>
+        <div class="row justify-content-left mt-4">
+          <h5><label>Shop Name</label></h5>
+      </div>
+      <div class="row justify-content-left">
+          <input type="text" class="fo form-control">
+      </div>
+      <div class="row justify-content-left mt-4">
+        <h5><label>Phone Number</label></h5>
     </div>
-        <div class="row">
-        <div class="form-group col-12 col-sm-5">
-            <div class="row justify-content-left">
-                <h5><label class="mt-4">Phone Number</label></h5>
-            </div>
-            <div class="row justify-content-left"> 
-                <input type="text" class="fo form-control">
-            </div>
-        </div>
-        <div class="col-12 col-sm-2"></div>
-        <div class="form-group col-12 col-sm-5">
-            <div class="row justify-content-left">
-                <h5><label class="mt-4">Email ID</label></h5>
-            </div>
-            <div class="row justify-content-left">
-                <input type="email" class="fo form-control">
-            </div>
-        </div>
+    <div class="row justify-content-left">
+        <input type="text" class="fo form-control">
     </div>
-
-    <div class="row">
-        <div class="form-group col-12 col-sm-5">
-            <div class="row justify-content-left">
-                <h5><label class="mt-4">Password</label></h5>
-            </div>
-            <div class="row justify-content-left"> 
-                <input type="password" class="fo form-control">
-            </div>
-        </div>
-        <div class="col-12 col-sm-2"></div>
-        <div class="form-group col-12 col-sm-5">
-            <div class="row justify-content-left">
-                <h5><label class="mt-4">Confirm Password</label></h5>
-            </div>
-            <div class="row justify-content-left">
-                <input type="password" class="fo form-control">
-            </div>
-        </div>
-    </div>
-        <div class="row justify-content-center mt-5">
-            <button type="submit" class="btn btn-sleefax shadow-lg mt-2">NEXT</button>
-        </div>
-        <div class="row justify-content-center mt-5">
-            <img src="Group 36.png" style="max-width: 75vh;">
-        </div>
-    </form>
-    <div class="row justify-content-center mt-5">
-        <input type="image" src="Image -26.jpg" style="max-width: 30vh; max-height: 8vh;"> &nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="image" src="facebook-login-button-png-11.png" style="max-width: 30vh;  max-height: 10vh;">
+    <div class="row justify-content-left mt-4">
+      <h5><label>Email Id</label></h5>
+  </div>
+  <div class="row justify-content-left">
+      <input type="text" class="fo form-control">
+  </div>
+  <div class="row justify-content-left mt-4">
+    <h5><label>Shop Location</label></h5>
+</div>
+<div class="row justify-content-left">
+    <input type="text" class="fo form-control">
+</div>
+<div class="row justify-content-left mt-3">
+  <button type="submit" class="btn btn-sleefax mt-4">Save Changes</button>
+</div>
     </div>
 </div>
-
+<div class="col-12 col-md-4"></div>
 <!-- Footer -->
-<footer class="page-footer font-small pt-4 mt-5" style="background-color: #F0F0F0; border-style: solid; border-width:1px; border-color:#707070; border-bottom:none; border-right:none; border-left:none;">
+<footer class="container-fluid page-footer font-small pt-4 mt-5" style="background-color: #F0F0F0; border-style: solid; border-width:1px; border-color:#707070; border-bottom:none; border-right:none; border-left:none;">
 
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -227,7 +225,5 @@
   
   </footer>
   <!-- Footer -->
-
-    
 </body>
 </html>
