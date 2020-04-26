@@ -1,9 +1,21 @@
 @media only screen and (max-width: 600px){
     #smaller-border{
-      display: hide;
+      display: none !important;
+    }
+    .sidenav{
+      height: 300px !important;
+    }
+
+  }
+  @media only screen and (max-width: 500px){
+    #applel{
+      margin-bottom: 5px;
     }
   }
-  
+ html,body{
+   overflow-x: hidden;
+ } 
+ 
   .navbar {
       color: Black;
       font-size: large;
@@ -84,7 +96,6 @@
     font-weight: bolder;
     background-image: linear-gradient(#0C6973 65%, #1BC1D8 100%);
     border-radius: 10px;
-    border: none;
   }
   
    

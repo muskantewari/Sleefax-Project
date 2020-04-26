@@ -1,9 +1,19 @@
 @media only screen and (max-width: 600px){
     #smaller-border{
-      display: hide;
+      display: none;
+    }
+    .sidenav{
+      height: 300px !important;
     }
   }
-  
+  @media only screen and (max-width: 500px){
+    #applel{
+      margin-bottom: 5px;
+    }
+  }
+  html,body{
+    overflow-x: hidden;
+  }
   .navbar {
       color: Black;
       font-size: large;

@@ -1,26 +1,44 @@
-@media only screen and (max-width: 600px) {
-  #per{
+@media only screen and (max-width: 750px) {
+  #hper{
     display: none;
   }
-  #per2{
+  #hper2{
+    display: none;
+  }
+  #hper3{
     display: none;
   }
   .ims{
-    width: 17vh;
-    height: 7vh;
+    margin-left: 130px;
   }
-  #ims1{
-       position: relative;
-       left: 70px;
-  }
-  #ims2{
-    position: relative;
-    left: 30px;
+
 }
+@media only screen and (max-width: 425px){
+  .ims{
+    margin-left: 100px;
+  }
+}
+@media only screen and (max-width: 375px){
+  .ims{
+    margin-left: 70px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .ims{
+    margin-left: 50px;
+  }
 }
 
+@media only screen and (max-width: 500px){
+  #applel{
+    margin-bottom: 5px;
+  }
+  #smaller-border{
+    display: none;
+  }
+}
 
-body{
+html,body{
   overflow-x: hidden;
 }
 .navbar {
@@ -49,9 +67,7 @@ body{
     border-radius: 5px;
   }  
 
-.ims{
-  display: inline-block;
-}
+
 /* Login Form */
 #loginForm {
     background-color: white;

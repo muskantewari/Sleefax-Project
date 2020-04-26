@@ -1,0 +1,52 @@
+
+@media only screen and (max-width: 500px){
+  #applel{
+    margin-bottom: 5px;
+  }
+  #si{
+    float: left !important;
+  }
+  #smaller-border{
+    display: none;
+  }
+}
+
+html,body{
+  overflow-x: hidden;
+}
+#si{
+  font-size: xxx-large; 
+  color:#3F8FB0; 
+  font-weight: bold; 
+  margin-left: 23vh;
+}
+.navbar {
+    color: Black;
+    font-size: large;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+  }
+  /* Logo For Navbar */
+  .logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  .navbar ul li a {
+    color: black !important;
+    font-weight: bolder;
+}
+.navbar ul li a.active{
+    color: #296178 !important;
+}
+#smaller-border {
+    height:4px;
+    width: 4vh;
+    background-color:  #296178;
+    border-radius: 5px;
+  }  
+.ab{
+  color: #3F8FB0;
+  font-size: xxx-large;
+  font-weight: bolder;
+}

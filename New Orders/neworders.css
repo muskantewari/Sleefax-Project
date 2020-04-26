@@ -2,15 +2,25 @@
   #smaller-border{
     display: none;
   }
+  .card_s{
+    text-align: center;
+  }
 }
-
+@media only screen and (max-width: 500px){
+  #applel{
+    margin-bottom: 5px;
+  }
+}
+html,body{
+  overflow-x: hidden;
+}
 .navbar {
     color: Black;
     font-size: large;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
   }
 
-  body{
+  html,body{
     overflow-x: hidden;
     background-color: #F9F9F9;
   }
@@ -89,11 +99,20 @@ td{
 tr{
     background-color: white;
     height: 10vh;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);   
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.164);   
+}
+
+td:last-child{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px ;
+}
+td:first-child{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .car{
     background-color:white; 
-    height: 80vh; 
+    height: 70vh; 
     width:30vh;
     border-radius: 15px;
     border-style: solid;
@@ -104,7 +123,7 @@ tr{
     border-style:solid; 
     border-width:1px; 
     border-color:#0D506E; 
-    height: 10vh; 
+    height: fit-content;
     font-size: larger;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);   
 }
@@ -126,4 +145,52 @@ tr:hover td:last-child{
     border-width:3px; 
     border-color:#0D506E; 
     border-left: none;
+}
+input[type=text] {
+  text-align: center;
+  height: 5vh;
+  padding: 6px;
+  font-size: 17px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0D506E; 
+  border-right: none;
+  color: #948585;
+  background-color: white;
+  border-bottom-left-radius:40px;
+    -moz-border-bottom-left-radius:40px;
+    -webkit-border-bottom-left-radius:40px;
+    border-top-left-radius:40px;
+    -moz-top-bottom-left-radius:40px;
+    -webkit-top-bottom-left-radius:40px;
+  float: left;
+  width: 80%;
+}
+
+#butn {
+color:#3687e5 ;
+ border-bottom-right-radius:40px;
+    -moz-border-bottom-right-radius:40px;
+    -webkit-border-bottom-right-radius:40px;
+    border-top-right-radius:40px;
+    -moz-top-right-radius:40px;
+    -webkit-top-right-radius:40px;
+  text-align: center;
+  padding: 4px 12px;
+  height: 5vh;
+  background: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0D506E; 
+  border-left: none;
+  float: left;
+  width: 20%;
+  cursor: pointer;
+}
+
+#butn:hover {
+  background: #ccc;
 }

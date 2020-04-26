@@ -8,6 +8,36 @@
   .consignup3{
     margin-right: 60px;
   }
+  #smaller-border{
+    display: none !important;
+  }
+    
+  }
+
+@media only screen and (max-width: 500px){
+  #applel{
+    margin-bottom: 5px;
+  }
+  .hi{
+    display: none;
+  }
+  #b1{
+    margin-right: 30px;
+  }
+  #b2{
+    margin-right: 30px;
+  }
+  .new_s{
+    margin-top: 20px;
+  }
+
+}
+.random_im{
+  text-align: center;
+}
+
+html,body{
+  overflow-x: hidden;
 }
 .navbar {
     color: Black;
