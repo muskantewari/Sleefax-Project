@@ -32,3 +32,7 @@ https://muskantewari.github.io/Sleefax-Project/Settings%20Change%20Password/chan
 
 Settings (Pricing)
 https://muskantewari.github.io/Sleefax-Project/Settings%20Pricing/pricing
+
+
+About us: 
+https://muskantewari.github.io/Sleefax-Project/About%20us/about
