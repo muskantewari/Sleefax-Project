@@ -1,12 +1,55 @@
+@media only screen and (max-width: 750px){
+  .newel{
+    margin-right: 250px !important;
+  }
+}
+@media only screen and (max-width: 650px){
+  .newel{
+    margin-right: 200px !important;
+  }
+}
+
 @media only screen and (max-width: 600px){
   #smaller-border{
     display: none;
+  }
+  .card_s{
+    text-align: center;
+  }
+  #hidee{
+    display: none;
+  }
+  .newel{
+    margin-right: 170px !important;
   }
 }
 
 @media only screen and (max-width: 500px){
   #applel{
     margin-bottom: 5px;
+  }
+  .newel{
+    margin-right: 130px !important;
+  }
+}
+@media only screen and (max-width: 450px){
+  .newel{
+    margin-right: 115px !important;
+  }
+}
+@media only screen and (max-width: 400px){
+  .newel{
+    margin-right: 100px !important;
+  }
+}
+@media only screen and (max-width: 350px){
+  .newel{
+    margin-right: 80px !important;
+  }
+}
+@media only screen and (max-width: 300px){
+  .newel{
+    margin-right: 60px !important;
   }
 }
 html,body{
