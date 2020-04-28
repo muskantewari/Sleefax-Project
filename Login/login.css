@@ -8,24 +8,8 @@
   #hper3{
     display: none;
   }
-  .ims{
-    margin-left: 130px;
-  }
-
-}
-@media only screen and (max-width: 425px){
-  .ims{
-    margin-left: 100px;
-  }
-}
-@media only screen and (max-width: 375px){
-  .ims{
-    margin-left: 70px;
-  }
-}
-@media only screen and (max-width: 320px){
-  .ims{
-    margin-left: 50px;
+  .this_im{
+    text-align: center;
   }
 }
 
@@ -42,6 +26,7 @@ html,body{
   overflow-x: hidden;
 }
 .navbar {
+  background-color: white;
     color: Black;
     font-size: large;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
@@ -61,7 +46,7 @@ html,body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:4px;
+    height:5px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
@@ -84,8 +69,6 @@ html,body{
     color: white;
     font-weight: bolder;
     background-color: #3F8FB0;
-    border: solid 1px #707070;
-    border: none;
     border-radius: 10px;
   }
   
@@ -93,8 +76,7 @@ html,body{
   .btn-sleefax:focus {
     color: white;
     font-weight: bolder;
-    border: none;
-    background-color: #22B3CF;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
   }
   
   /* Form Control Special For Border */

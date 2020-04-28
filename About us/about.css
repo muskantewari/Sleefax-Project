@@ -1,52 +1,105 @@
-
-@media only screen and (max-width: 500px){
-  #applel{
+@media only screen and (max-width: 500px) {
+  #applel {
     margin-bottom: 5px;
   }
-  #si{
+
+  #si {
     float: left !important;
   }
-  #smaller-border{
+
+  #smaller-border {
     display: none;
   }
 }
 
-html,body{
+html,
+body {
   overflow-x: hidden;
 }
-#si{
-  font-size: xxx-large; 
-  color:#3F8FB0; 
-  font-weight: bold; 
-  margin-left: 23vh;
-}
-.navbar {
-    color: Black;
-    font-size: large;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
-  }
-  /* Logo For Navbar */
-  .logo {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-  }
 
-  .navbar ul li a {
-    color: black !important;
-    font-weight: bolder;
+#si {
+  font-size: xxx-large;
+  color: #3F8FB0;
+  font-weight: bold;
 }
-.navbar ul li a.active{
-    color: #296178 !important;
+
+@media only screen and (min-width: 500px) {
+  #si {
+    margin-left: 23vh;
+  }
 }
+
+.navbar {
+  color: Black;
+  font-size: large;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+  background-color: white;
+}
+
+/* Logo For Navbar */
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.navbar ul li a {
+  color: black !important;
+  font-weight: bolder;
+}
+
+.navbar ul li a.active {
+  color: #296178 !important;
+}
+
 #smaller-border {
-    height:4px;
-    width: 4vh;
-    background-color:  #296178;
-    border-radius: 5px;
-  }  
-.ab{
+  height: 5px;
+  width: 4vh;
+  background-color: #296178;
+  border-radius: 5px;
+}
+
+.ab {
   color: #3F8FB0;
   font-size: xxx-large;
   font-weight: bolder;
+  margin-top: 100px !important;
+}
+.canRotate
+{
+    -webkit-animation: FullRotation 3s ease-out;
+    -o-animation: FullRotation 3s ease-out;
+    -ms-animation: FullRotation 3s ease-out;
+    -moz-animation: FullRotation 3s ease-out;
+    animation: FullRotation 3s ease-out;
+} 
+
+@-webkit-keyframes FullRotation
+{
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-o-keyframes FullRotation
+{
+    from { -o-transform: rotate(0deg); }
+    to { -o-transform: rotate(360deg); }
+}
+
+@-ms-keyframes FullRotation
+{
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-moz-keyframes FullRotation
+{
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@keyframes FullRotation
+{
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }

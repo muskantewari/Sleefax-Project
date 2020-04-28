@@ -128,7 +128,7 @@ html,body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:4px;
+    height:5px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
@@ -184,10 +184,24 @@ table{
 td{ 
     text-align: center  ; 
 } 
+
+td:last-child{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px ;
+}
+td:first-child{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
 tr{
     background-color: white;
     height: 8vh;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.164);   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;  
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
 }
 td:last-child{
     box-shadow: 4px 0 3px rgba(0, 0, 0, 0.164);   

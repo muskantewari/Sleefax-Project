@@ -22,7 +22,7 @@
 </head>
     <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md" style="background-color: white;">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color: white;">
 
     <!-- Navbar Brand -->
     <a href="index.html" class="navbar-brand">
@@ -42,9 +42,10 @@
         <div class="navbar-nav ml-auto">
             <ul class="navbar-nav ml-auto"  id="navbarCollapse">
               <li class="mt-2">
-              <input type="checkbox" data-toggle="toggle" data-on="Open <i class='fa fa-play'></i>" data-off="<i class='fa fa-pause'></i> Closed "  data-width="120" data-height="30" data-onstyle="info" data-offstyle="danger">
-                &nbsp; &nbsp;
-              </li>
+        
+<label class="switch"><input type="checkbox" id="togBtn" checked><div class="slider round"><!--ADDED HTML --><span class="on" style="font-weight:bold; font-size:medium;">Open</span><span class="off" style="font-weight:bold; font-size:medium">&nbsp;&nbsp;&nbsp;&nbsp;Closed</span><!--END--></div></label>
+             &nbsp;&nbsp;&nbsp;
+</li>
 
                 <li class="nav-item">
                     <a class="nav-link active mx-auto" href="#">Home</a>
@@ -60,9 +61,9 @@
         </div>
     </div>
 </nav>
-<div class="row justify-content-center mt-5">
-  <input type="text" placeholder="search by order id" style="max-width: 30vh;">
-  <button class="justify-content-left" type="submit" id="butn" style="max-width:7vh; text-align: left;"><i class="fa fa-search"></i></button>
+<div class="row justify-content-center" style="margin-top: 120px;">
+  <input type="text" class="px-2" placeholder="search by order id" style="max-width: 30vh; max-height: fit-content;">
+  <button class="px-1" type="submit" id="butn" style="max-width:6vh; text-align: center;"><i class="fa fa-search"></i></button>
 </div>
 <div class="row mt-2">
     <div class="col-12 col-md-1"></div>
@@ -150,8 +151,7 @@
             </table>
         </div>
     </div>
-    <div class="col-12 col-md-1" id="hidee"> </div>
-   
+  
 
    
     <div class="col-12 col-md-2 mt-4">
@@ -211,6 +211,9 @@
                 <ul class="list-unstyled">
                   <li class="mt-3">
                     <a href="#!" style="color:black;">About Us</a>
+                  </li>
+                  <li class="mt-3">
+                    <a href="#!" style="color:black;">Contact Us</a>
                   </li>
                   <li class="mt-1">
                     <a href="#!" style="color:black;">Help</a>

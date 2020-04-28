@@ -1,13 +1,4 @@
 @media only screen and (max-width: 600px) {
-  .consignup1{
-    margin-right: 50px;
-  }
-  .consignup2{
-    margin-right: 60px;
-  }
-  .consignup3{
-    margin-right: 60px;
-  }
   #smaller-border{
     display: none !important;
   }
@@ -59,7 +50,7 @@ html,body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:4px;
+    height:5px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
@@ -84,17 +75,13 @@ html,body{
     background-color:#3F8FB0;
     border-radius: 10px;
     border: none;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
   }
   
   .btn-sleefax:hover,
   .btn-sleefax:focus {
     color: white;
     font-weight: bolder;
-    background-image: linear-gradient(#0C6973 65%, #1BC1D8 100%);
-    border-radius: 10px;
-    border: none;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
   }
   
 

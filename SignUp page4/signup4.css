@@ -40,7 +40,7 @@ html,body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:4px;
+    height:5px;
     width: 4vh;
     background-color:  #296178;
     border-radius: 5px;
