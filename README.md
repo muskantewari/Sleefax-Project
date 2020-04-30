@@ -38,3 +38,6 @@ https://muskantewari.github.io/Sleefax-Project/About%20us/about
 
 Contact Us: 
 https://muskantewari.github.io/Sleefax-Project/Contact%20Us/contactus
+
+Sign Up (Multistep):
+https://muskantewari.github.io/Sleefax-Project/SignUp/signup
