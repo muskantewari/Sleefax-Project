@@ -167,7 +167,9 @@ input.invalid {
 .fo{
   box-shadow:0 0 2px rgba(0, 0, 0, 0.514); 
 } 
-
+.fo1{
+  box-shadow:0 0 2px rgba(0, 0, 0, 0.514); 
+} 
 .container1 {
   display: block;
   position: relative;
@@ -238,4 +240,7 @@ input.invalid {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+#nextBtn{
+  position: relative;
 }
