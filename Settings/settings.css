@@ -42,11 +42,12 @@ background-color: #F9F9F9;
       border-radius: 5px;
     }
 .sidenav{
-    height: 100vh;
+    height: 135vh;
     width: 10vh;
+    background-color: white;
+    margin-top: -7px;
 }
  .navi td a{
-     color: black !important ;
      font-weight: bolder;
      font-size: x-large;
  }
@@ -98,5 +99,12 @@ background-color: #F9F9F9;
     border-radius: 10px;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
   }
+  #save1{
+    display: none;
+  }
+  #save2{
+    display: none;
+  }
+  
   
    

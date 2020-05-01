@@ -8,11 +8,9 @@ function showTab(n) {
   // ... and fix the Previous/Next buttons:
   if (n == 0) {
     document.getElementById("prevBtn").style.display = "none";
-    document.getElementById("nextBtn").style.right = "15vh";
   } 
   else if (n == 1){
     document.getElementById("prevBtn").style.display = "inline";
-    document.getElementById("nextBtn").style.left = "5vh";
   }
   else if (n == (x.length - 1)){
     document.getElementById("prevBtn").style.display = "none";
@@ -92,9 +90,9 @@ function fixStepIndicator(n) {
   //... and adds the "active" class to the current step:
   x[n].className += " active";
 }
-var requiredText = '₹';
+/*var requiredText = '₹';
 $('.fo1').on('input', function() {
   if (String($(this).val()).indexOf(requiredText) == -1) {
     $(this).val(requiredText);
   }
-});
+});*/
