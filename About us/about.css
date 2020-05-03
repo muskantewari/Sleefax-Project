@@ -1,7 +1,21 @@
-@media only screen and (max-width: 500px) {
+
+
+@media only screen and (max-width: 600px) {
   #applel {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
+  #vl{
+    display: none;
+  }
+  #rl{
+    display: none;
+  }
+  
+}
+
+
+
+@media only screen and (max-width: 500px) {
 
   #si {
     float: left !important;
@@ -16,7 +30,19 @@ html,
 body {
   overflow-x: hidden;
   background-color: #F9F9F9;
+ 
 }
+#vl{
+  height: 32vh;
+  width:1px;
+  background-color: #AEAEAE;
+}
+#rl{
+  height: 1px;
+  width:47vh;
+  background-color: #AEAEAE;
+}
+
 
 #si {
   font-size: xxx-large;

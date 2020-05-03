@@ -13,8 +13,8 @@
     }
   }
  html,body{
+   background-color: #F9F9F9;
    overflow-x: hidden;
-background-color: #F9F9F9;
  } 
  
   .navbar {
@@ -42,9 +42,9 @@ background-color: #F9F9F9;
       border-radius: 5px;
     }
 .sidenav{
+   background-color: white;
     height: 135vh;
     width: 10vh;
-    background-color: white;
     margin-top: -7px;
 }
  .navi td a{
@@ -74,7 +74,6 @@ background-color: #F9F9F9;
    .up{
        max-height: min-content;
        font-size: large;
-       color: white;
        font-weight: bolder;
        background-color:#DED4D4;
        border: none;
