@@ -107,11 +107,17 @@
       <input type="text" class="fo1 form-control" id="sname" value="Krishna Xerox" disabled> 
     </div>
     <div class="row justify-content-left mt-4">
-      <h5><label>Phone Number</label></h5>
+      <h5><label>Personal Contact Number</label></h5>
   </div>
   <div class="row justify-content-left">
       <input type="text" class="fo1 form-control" id="pnum" value="9831460332" disabled> 
   </div>
+  <div class="row justify-content-left mt-4">
+    <h5><label>Shop Phone Number</label></h5>
+</div>
+<div class="row justify-content-left">
+    <input type="text" class="fo1 form-control" id="spnum" value="22468819" disabled> 
+</div>
   <div class="row justify-content-left mt-4">
     <h5><label>Email Id</label></h5>
 </div>
@@ -124,7 +130,7 @@
 <div class="row justify-content-left">
   <input type="text" class="fo1 form-control" id="loc" value="144 cotton street" disabled> 
 </div>
-<div class="row mt-3 but_c"> 
+<div class="row justify-content-center mt-3 but_c"> 
   <button class="btn btn-sleefax mt-5" id="edit1" onclick="enable_input()" >Edit Details</button>
 <button class="btn btn-sleefax mt-4" id="save1" onclick="disable_input()" >Save details</button>
 </div>
@@ -151,7 +157,7 @@
       <div class="row justify-content-left">
         <input type="text" class="fo form-control">
       </div>
-      <div class="row justify-content-left mt-3">
+      <div class="row justify-content-center mt-3">
         <button type="submit" class="btn btn-sleefax mt-4">Save Changes</button>
       </div>
     </div>
@@ -183,8 +189,8 @@
       <div class="row justify-content-left">
         <input type="text" value="₹ 12" class="fo2 form-control" disabled>
       </div>
-      <div class="row justify-content-left mt-3">
-        <button class="btn btn-sleefax mt-5" id="edit1" onclick="enable_input()" >Edit Details</button>
+      <div class="row justify-content-center mt-3">
+        <button class="btn btn-sleefax mt-5" id="edit2" onclick="enable_input2()" >Edit Details</button>
         <button type="submit" class="btn btn-sleefax mt-4" id ="save2" onclick="disable_input2()" >Save Changes</button>
       </div>
     </div>
@@ -315,9 +321,9 @@
         }
       }
       function enable_input2(){
-        var inputs = document.getElementsByClassName("fo2");
-        for (i=0;1<inputs.length;i++){
-            inputs[i].disabled = false;
+        var inputs2 = document.getElementsByClassName("fo2");
+        for (i=0;1<inputs2.length;i++){
+            inputs2[i].disabled = false;
         } 
     }
     $(".fo2").change(function(){

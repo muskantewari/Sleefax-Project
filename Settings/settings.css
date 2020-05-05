@@ -42,7 +42,7 @@
       border-radius: 5px;
     }
 .sidenav{
-   background-color: white;
+   background-color: #F9F9F9;
     height: 135vh;
     width: 10vh;
     margin-top: -7px;
@@ -105,5 +105,5 @@
     display: none;
   }
   
-  
+
    

@@ -96,4 +96,25 @@ background-color: #F9F9F9;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
   }
   
-   
+.currencyinput {
+  padding: 3px 15px !important;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  font-size: 22px !important;
+  height: 43px;
+  background-color: #e9ecef;
+}
+
+.fo2 {
+  border: none !important;
+  font-size: 18px;
+  width: 80% !important;
+  font-weight: bold !important;
+}
+.fo2:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+  font-weight: 400;
+}

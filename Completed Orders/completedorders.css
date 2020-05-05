@@ -1,6 +1,23 @@
+@media only screen and (max-width: 750px){
+  .newel{
+    margin-right: 250px !important;
+  }
+}
+@media only screen and (max-width: 650px){
+  .newel{
+    margin-right: 200px !important;
+  }
+}
+
 @media only screen and (max-width: 600px){
   #smaller-border{
     display: none;
+  }
+  #hidee{
+    display: none;
+  }
+  .newel{
+    margin-right: 170px !important;
   }
 }
 
@@ -8,7 +25,32 @@
   #applel{
     margin-bottom: 5px;
   }
+  .newel{
+    margin-right: 130px !important;
+  }
 }
+@media only screen and (max-width: 450px){
+  .newel{
+    margin-right: 115px !important;
+  }
+}
+@media only screen and (max-width: 400px){
+  .newel{
+    margin-right: 100px !important;
+  }
+}
+@media only screen and (max-width: 350px){
+  .newel{
+    margin-right: 80px !important;
+  }
+}
+@media only screen and (max-width: 300px){
+  .newel{
+    margin-right: 60px !important;
+  }
+}
+
+
 html,body{
   overflow-x: hidden;
   background-color: #F9F9F9;
@@ -106,12 +148,9 @@ table{
     border-spacing: 0 15px; 
     } 
 
-td{ 
-    text-align: center  ; 
-} 
 tr{
     background-color: white;
-    height: 8vh;
+    height: 17vh;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.164);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;  
@@ -119,23 +158,22 @@ tr{
     border-bottom-right-radius:10px ;
 }
 .car{
-    background-color:white; 
-    height: 65vh; 
-    width:35vh;
-    border-radius: 15px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #0D506E;
+  background-color:white; 
+  height: fit-content; 
+  width:28vh;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #0D506E;
 }
 .od{
-    border-style:solid; 
-    border-width:1px; 
-    border-color:#0D506E; 
-    height: 8vh; 
-    font-size: larger;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);   
+  border-style:solid; 
+  border-width:1px; 
+  border-color:#0D506E; 
+  height: fit-content;
+  font-size: larger;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);   
 }
-
 tr:hover td{
     border-style:solid; 
     border-width:3px; 
@@ -157,7 +195,7 @@ tr:hover td:last-child{
 }
 .btn-sleefax {
     height: fit-content;
-    width: 16vh;
+    width: 17vh;
     color: white;
     background-color: #4ACF69;
     border-radius: 40px;
@@ -173,5 +211,44 @@ td:last-child:hover .btn-sleefax{
     color: white;
     font-weight: bolder;
   }
-
-  
+  .greyrow{
+    background-color: #CFCFCF; 
+    height: 5vh; 
+    width:fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.164);
+  }
+  .bluerow{
+    background-color: #3F8FB0; 
+    height: 5vh; 
+    width:fit-content;
+    border-radius: 10px;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, 0.164);
+  }
+#np{
+  color: white;
+  background-color: #D83737;
+  border-radius: 10px;
+  font-size: 15px;
+  border: solid 1px #707070;
+  height: 25px;
+  width: 73px;
+}
+#rd{
+  background-color: #E6F3F3;
+  border-radius: 40px;
+  border:none;
+  width:45vh;
+  font-size: smaller;
+  height: 4vh;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.164);
+}
+#paid{
+  color: white;
+  background-color: #11771B;
+  border-radius: 10px;
+  font-size: 15px;
+  border: solid 1px #707070;
+  height: 25px;
+  width: 73px;
+}

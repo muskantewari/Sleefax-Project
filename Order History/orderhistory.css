@@ -203,9 +203,7 @@ tr{
     border-top-right-radius: 10px;
     border-bottom-right-radius:10px ;
 }
-td:last-child{
-    box-shadow: 4px 0 3px rgba(0, 0, 0, 0.164);   
-}
+
 .car{
     background-color:white; 
     height: fit-content; 
