@@ -25,6 +25,7 @@ html,body{
     color: Black;
     font-size: large;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+    height: 9vh;
   }
   /* Logo For Navbar */
   .logo {
@@ -41,11 +42,16 @@ html,body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:5px;
-    width: 4vh;
-    background-color:  #296178;
-    border-radius: 5px;
-  }  
+  height:5px;
+  width: 9vh;
+  background-color:  #296178;
+  border-radius: 5px;
+  z-index:1;
+  position: relative;
+  top: 2px;
+  
+
+}  
 .ab{
   color: #3F8FB0;
   font-size: xxx-large;

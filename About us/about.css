@@ -61,6 +61,7 @@ body {
   font-size: large;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
   background-color: white;
+  height:9vh;
 }
 
 /* Logo For Navbar */
@@ -78,14 +79,17 @@ body {
 .navbar ul li a.active {
   color: #296178 !important;
 }
-
 #smaller-border {
-  height: 5px;
-  width: 4vh;
-  background-color: #296178;
+  height:5px;
+  width: 14vh;
+  background-color:  #296178;
   border-radius: 5px;
-}
+  z-index:1;
+  position: relative;
+  top: 2px;
+  
 
+}  
 .ab {
   color: #3F8FB0;
   font-size: xxx-large;

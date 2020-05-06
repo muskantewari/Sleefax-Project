@@ -59,6 +59,7 @@ html,body{
     color: Black;
     font-size: large;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+    height: 9vh;
   }
 
   html,body{
@@ -80,12 +81,16 @@ html,body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:5px;
-    width: 4vh;
-    background-color:  #296178;
-    border-radius: 5px;
-  }
+  height:5px;
+  width: 9vh;
+  background-color:  #296178;
+  border-radius: 5px;
+  z-index:1;
+  position: relative;
+  top: 5px;
+  
 
+}  
 input[type=text] {
 text-align: center;
 height: 5vh;
@@ -333,4 +338,51 @@ input:checked + .slider .off
 .slider.round:before {
   border-radius: 50%;
   box-shadow: 0px 0px 3px black;
+}
+#vl{
+  height: 32vh;
+  width:1px;
+  background-color: #AEAEAE;
+}
+#rl{
+  height: 1px;
+  width:47vh;
+  background-color: #AEAEAE;
+}
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-weight: bolder; 
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  padding-top: 10px;
+  margin: 0;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  min-height: 115px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

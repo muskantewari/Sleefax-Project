@@ -31,6 +31,7 @@ html,body{
     color: Black;
     font-size: large;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+    height:9vh;
   }
   /* Logo For Navbar */
   .logo {
@@ -48,9 +49,14 @@ html,body{
 }
 #smaller-border {
     height:5px;
-    width: 4vh;
+    width: 9vh;
     background-color:  #296178;
     border-radius: 5px;
+    z-index:1;
+    position: relative;
+    top: 2px;
+    
+
   }  
 
 
@@ -64,13 +70,15 @@ html,body{
   
   /* Login Button */
   .btn-sleefax {
-    height: 8vh;
-    width: 50vh;
+    height: 6vh;
+    width: 60vh;
     padding: 5px 5px;
+    padding-top: 2px;
     color: white;
     font-weight: bolder;
     background-color: #3F8FB0;
-    border-radius: 10px;
+    border-radius: 20px;
+    font-size: larger;
   }
   
   .btn-sleefax:hover,
@@ -83,12 +91,13 @@ html,body{
   /* Form Control Special For Border */
   .form-control {
     border: none;
+    width: 60vh;
     border-bottom: 1px solid #707070
   }
   .container1 {
     display: block;
     position: relative;
-    padding-left: 35px;
+    padding-left: 29px;
     margin-bottom: 12px;
     cursor: pointer;
     font-size: 18px;

@@ -107,6 +107,7 @@ color:#3687e5 ;
     color: Black;
     font-size: large;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+    height: 9vh;
   }
 
 html,body{
@@ -128,11 +129,16 @@ html,body{
     color: #296178 !important;
 }
 #smaller-border {
-    height:5px;
-    width: 4vh;
-    background-color:  #296178;
-    border-radius: 5px;
-  }
+  height:5px;
+  width: 17vh;
+  background-color:  #296178;
+  border-radius: 5px;
+  z-index:1;
+  position: relative;
+  top: 5px;
+  
+
+}  
 
 input[type=text] {
 text-align: center;
@@ -264,11 +270,21 @@ tr:hover td:last-child{
     margin: 0;
   }
   
-
+  #vl{
+    height: 32vh;
+    width:1px;
+    background-color: #AEAEAE;
+  }
+  #rl{
+    height: 1px;
+    width:47vh;
+    background-color: #AEAEAE;
+  }
   
   .dropdown-content {
     display: none;
     position: absolute;
+    top: 53px;
     background-color: white;
     min-width: 160px;
     min-height: 115px;

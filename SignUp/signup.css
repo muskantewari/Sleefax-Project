@@ -69,6 +69,7 @@ background-color: #F9F9F9;
     color: Black;
     font-size: large;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
+    height: 9vh;
   }
   /* Logo For Navbar */
   .logo {
@@ -87,11 +88,25 @@ background-color: #F9F9F9;
 .navbar ul li a.active{
     color: #296178 !important;
 }
-#smaller-border {
-    height:5px;
-    width: 4vh;
-    background-color:  #296178;
+#vl{
+  height: 32vh;
+  width:1px;
+  background-color: #AEAEAE;
 }
+#rl{
+  height: 1px;
+  width:47vh;
+  background-color: #AEAEAE;
+}
+#smaller-border {
+  height:5px;
+  width: 10vh;
+  background-color:  #296178;
+  border-radius: 5px;
+  z-index:1;
+  position: relative;
+  top: 2px;
+}  
 .step {
   height: 25px;
   width: 25px;
@@ -173,7 +188,7 @@ input.invalid {
 .container1 {
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 29px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 18px;
