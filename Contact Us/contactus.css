@@ -93,3 +93,13 @@ html,body{
       font-weight: bolder;
       box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.164);
     }
+    #vl{
+      height: 32vh;
+      width:1px;
+      background-color: #AEAEAE;
+    }
+    #rl{
+      height: 1px;
+      width:47vh;
+      background-color: #AEAEAE;
+    }

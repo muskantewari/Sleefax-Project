@@ -21,7 +21,7 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "inline";
   }
   if (n == (x.length - 2)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
+    document.getElementById("nextBtn").innerHTML = "SUBMIT";
   } 
   else if (n== (x.length - 1)){
     document.getElementById("nextBtn").style.display="none";
@@ -96,3 +96,4 @@ $('.fo1').on('input', function() {
     $(this).val(requiredText);
   }
 });*/
+

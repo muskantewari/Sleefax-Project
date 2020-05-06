@@ -252,3 +252,13 @@ td:last-child:hover .btn-sleefax{
   height: 25px;
   width: 73px;
 }
+#vl{
+  height: 32vh;
+  width:1px;
+  background-color: #AEAEAE;
+}
+#rl{
+  height: 1px;
+  width:47vh;
+  background-color: #AEAEAE;
+}
