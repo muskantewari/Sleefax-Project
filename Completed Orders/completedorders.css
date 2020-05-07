@@ -269,8 +269,91 @@ td:last-child:hover .btn-sleefax{
   background-color: #AEAEAE;
 }
 .call{
+  width:135vh;
   background-color: white;
   border-radius: 10px;
-  height: 14vh;
+  height: 12vh;
   box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
+}
+.ode{
+  width: fit-content;
+  height: fit-content;
+  padding: 3px 20px;
+  border: solid 1px #707070;
+  border-radius: 20px;
+}
+#odb{
+  height: 7vh;
+  width: 13vh;
+  font-size: x-small;
+  background-color: #3F8FB0;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
+}
+#otp{
+  border-radius: 10px;
+  border: solid 1px #707070;
+}
+#proceed{
+  background-color: #4ACF69;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
+  padding: 3px 20px;
+  height: fit-content;
+  width: fit-content;
+  font-size:smaller;
+  color: white;
+}
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-weight: bolder; 
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  padding-top: 10px;
+  margin: 0;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  min-height: 115px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a{
+  float: none;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a.active{
+  float: none;
+  padding: 6px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#cdetails{
+  display: none;
+}
+#otpsec{
+  display: none;
 }

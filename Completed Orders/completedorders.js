@@ -6,3 +6,4 @@
                                $this.button('reset');
                            }, 8000);
                         });
+
