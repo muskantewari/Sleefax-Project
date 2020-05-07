@@ -156,7 +156,7 @@ table{
 
 tr{
     background-color: white;
-    height: 17vh;
+    height: 15vh;
     box-shadow: 0 4px 3px rgba(0, 0, 0, 0.164);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;  
@@ -267,4 +267,10 @@ td:last-child:hover .btn-sleefax{
   height: 1px;
   width:47vh;
   background-color: #AEAEAE;
+}
+.call{
+  background-color: white;
+  border-radius: 10px;
+  height: 14vh;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.164);
 }
