@@ -97,3 +97,23 @@ $('.fo1').on('input', function() {
   }
 });*/
 
+   
+function addb1(){
+  document.getElementById("b1").style.display = "block";
+}
+function addb2(){
+  document.getElementById("b2").style.display = "block";
+}
+function addd1(){
+  document.getElementById("d1").style.display = "block";
+}
+function removeb2(){
+  document.getElementById("b2").style.display = "none";
+}
+function removed1(){
+  document.getElementById("d1").style.display = "none";
+   document.getElementById("b2").style.display = "none";
+}
+function removeb1(){
+  document.getElementById("b1").style.display = "none";
+}

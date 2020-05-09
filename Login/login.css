@@ -175,4 +175,18 @@ html,body{
         width:47vh;
         background-color: #AEAEAE;
       }
-
+      .iam{
+        border-radius: 6px;
+      }
+      #iam1:hover{
+        -webkit-box-shadow: 0 0 5px 2px #4285F4;
+        -moz-box-shadow: 0 0 5px 2px #4285F4;
+        box-shadow: 0 0 5px 2px #4285F4;
+      
+      }
+      #iam2:hover{
+        -webkit-box-shadow: 0 0 5px 2px #4267B2;
+        -moz-box-shadow: 0 0 5px 2px #4267B2;
+        box-shadow: 0 0 5px 2px #4267B2;
+      
+      }

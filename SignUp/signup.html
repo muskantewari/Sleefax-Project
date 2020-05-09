@@ -187,9 +187,205 @@
           </div>
         </div>
       </div>
-    </div> 
+ 
+    </div>
+    
+    <div class="row">
+      <div class="col-12 col-md-3"></div>
+     <div class="col-12 col-md-8" style="margin-left: 30px;">
+        <div class="form-group col-12 col-sm-12">
+          <div class="row justify-content-left">
+            <h5 class="mt-2">Shop Timings</h5>
+          </div>
+        </div>
+        <div class="container-fluid st mt-3 pl-3">
+        <div class="row">
+          <div class="col-12 col-md-2" style="text-align: right;" > 
+            <div class="mt-1" style="color:#39748B; font-weight:bolder; font-size: 17px;">Open Hours  : </div> 
+          </div>
+            <div class="col-12 col-md-2" style="text-align: center;">
+              <div class="dropdown show">
+                <a class="selday btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Select Days
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Mon-Fri</a>
+                  <a class="dropdown-item" href="#">Sat-Sun</a>
+                  <a class="dropdown-item" href="#">Monday</a>
+                  <a class="dropdown-item" href="#">Tuesday</a>
+                  <a class="dropdown-item" href="#">Wednesday</a>
+                  <a class="dropdown-item" href="#">Thursday</a>
+                  <a class="dropdown-item" href="#">Friday</a>
+                  <a class="dropdown-item" href="#">Saturday</a>
+                  <a class="dropdown-item" href="#">Sunday</a>
+
+                </div>
+              </div>
+
+          </div>
+          <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+            From: &nbsp;&nbsp;
+          <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+          </div>
+          <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+            To: &nbsp;&nbsp;
+          <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+          </div>
+         
+      
+          <div class="col-12 col-md-2" style="text-align: center;">
+            <button class="addbreak" onclick="addb1()">Add Break</button>
+          </div>
+          <div class="col-12 col-md-2" style="text-align: left;">
+            <button class="addday" onclick="addd1()">Add Day</button>
+          </div>
+        </div>
+        <div id="b1">
+          <div class="row mt-3">
+            <div class="col-12 col-md-2" style="text-align: center;" > 
+            
+            </div>
+              <div class="col-12 col-md-2" style="color:#57B1D5; font-weight: bolder; font-size: 15px;">
+              <div class="ml-3 mt-1"> BREAK TIME</div> 
+  
+            </div>
+            <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+              From: &nbsp;&nbsp;
+            <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+            </div>
+            <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+              To: &nbsp;&nbsp;
+            <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+            </div>
+           
+        
+            <div class="col-12 col-md-2" style="text-align: center;">
+              <button id="remo" onclick="removeb1()" class="remove">Remove</button>
+            </div>
+            <div class="col-12 col-md-2">
+            </div>
+          </div>
+         
+        
+      </div>
+        <div id="d1">
+          <div class="row mt-4">
+            <div class="col-12 col-md-2" style="text-align: center;" > 
+
+            </div>
+              <div class="col-12 col-md-2" style="text-align: center;">
+                <div class="dropdown show">
+                  <a class="selday btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Select Days
+                  </a>
+                
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Mon-Fri</a>
+                    <a class="dropdown-item" href="#">Sat-Sun</a>
+                    <a class="dropdown-item" href="#">Monday</a>
+                    <a class="dropdown-item" href="#">Tuesday</a>
+                    <a class="dropdown-item" href="#">Wednesday</a>
+                    <a class="dropdown-item" href="#">Thursday</a>
+                    <a class="dropdown-item" href="#">Friday</a>
+                    <a class="dropdown-item" href="#">Saturday</a>
+                    <a class="dropdown-item" href="#">Sunday</a>
+  
+                  </div>
+                </div>
+  
+            </div>
+            <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+              From: &nbsp;&nbsp;
+            <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+            </div>
+            <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+              To: &nbsp;&nbsp;
+            <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+            </div>
+           
+        
+            <div class="col-12 col-md-2" style="text-align: center;">
+              <button class="addbreak" onclick="addb2()">Add Break</button>
+            </div>
+            <div class="col-12 col-md-2" style="text-align: left;">
+              <button onclick="removed1()" class="remove">Remove</button>
+            </div>
+          </div>
+      </div>
+      <div id="b2">
+        <div class="row mt-3">
+          <div class="col-12 col-md-2" style="text-align: center;" > 
+          
+          </div>
+            <div class="col-12 col-md-2" style="color:#57B1D5; font-weight: bolder; font-size: 15px;">
+            <div class="ml-3 mt-1"> BREAK TIME</div> 
+
+          </div>
+          <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+            From: &nbsp;&nbsp;
+          <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+          </div>
+          <div class="col-12 col-md-2" style="font-size: medium; color:#7E7E7E; text-align: center;">
+            To: &nbsp;&nbsp;
+          <input type="text" style="border: solid 1px #7E7E7E; border-radius: 6px; width:8vh;" >  
+          </div>
+         
+      
+          <div class="col-12 col-md-2" style="text-align: center;">
+            <button id="remo" onclick="removeb2()" class="remove">Remove</button>
+          </div>
+          <div class="col-12 col-md-2">
+          </div>
+        </div>
+       
+      
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 col-md-2" style="text-align: right;" > 
+        <div style="color:#39748B; font-weight:bolder; font-size: 17px;">Closed On   : </div> 
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+        <button class="days">Sunday</button>
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+        <button class="days">Monday</button>
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+        <button class="days">Tuesday</button>
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+        <button class="days">Wednesday</button>
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12 col-md-2" style="text-align: right;" > 
+    
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+        <button class="days">Thursday</button>
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+        <button class="days">Friday</button>
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+        <button class="days">Saturday</button>
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+    
+      </div>
+      <div class="col-12 col-md-2" style="text-align: center;">
+      </div>
+    </div>
+    
+
+  </div>
 
   </div>  
+</div>
+  </div>
 
   <div class="tab">
 
@@ -329,10 +525,10 @@
     <div class="row mt-5 justify-content-center ml-1 random_im" id="conthid">
       <div class="col-12 col-sm-1"></div>
       <div class="col-12 col-sm-5">
-        <input type="image" class="iam" src="Group 9876.png" style="max-width: 30vh; height: 7vh;"> 
+        <input type="image" class="iam" src="Group 9876.png" style="max-width: 30vh; height: 7vh;" id="iam1"> 
       </div>
       <div class="col-12 col-sm-6 mb-4">
-        <input type="image" class="iam" src="Group 9877.png" style="max-width: 30vh;  height: 7vh;">
+        <input type="image" class="iam" src="Group 9877.png" style="max-width: 30vh;  height: 7vh;" id="iam2">
       </div>
     </div>
   </div>
@@ -392,7 +588,7 @@
           <li class="mt-2">
             <a href="#!" style="color:white; ">Contact Us</a>
           </li>
-          <li class="mt-1">
+          <li class="mt-2">
             <a href="#!" style="color:white;">Help</a>
           </li>
         </ul>
@@ -470,6 +666,7 @@
 
 </footer>
 <!-- Footer -->
+
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

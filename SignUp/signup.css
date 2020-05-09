@@ -154,6 +154,22 @@ background-color: #F9F9F9;
 input.invalid {
   background-color: #ffdddd;
 }
+.iam{
+  border-radius: 6px;
+}
+#iam1:hover{
+  -webkit-box-shadow: 0 0 5px 2px #4285F4;
+  -moz-box-shadow: 0 0 5px 2px #4285F4;
+  box-shadow: 0 0 5px 2px #4285F4;
+
+}
+#iam2:hover{
+  -webkit-box-shadow: 0 0 5px 2px #4267B2;
+  -moz-box-shadow: 0 0 5px 2px #4267B2;
+  box-shadow: 0 0 5px 2px #4267B2;
+
+}
+
 
 
 
@@ -248,9 +264,7 @@ input.invalid {
 .container1 input:checked ~ .checkmark:after {
   display: block;
 }
-.tab {
-  display: none;
-}
+
 /* Style the checkmark/indicator */
 .container1 .checkmark:after {
   left: 6px;
@@ -265,4 +279,66 @@ input.invalid {
 }
 #nextBtn{
   position: relative;
+}
+.st{
+  height:fit-content;
+  border: solid 1px #707070;
+  border-radius: 10px;
+  padding: 25px 0px 25px 9px;
+}
+.selday{
+  padding: 8px 16px;
+  border: solid 1px #707070;
+  border-radius: 5px;
+  font-size: small;
+  width: fit-content;
+}
+.addbreak{
+  padding: 5px 15px;
+  background-color: #57B1D5;
+  color: white;
+  font-size: small;
+  width: fit-content;
+  border-radius: 7px;
+  border: none;
+}
+.addday{
+  padding: 5px 15px;
+  background-color: #39748B;
+  color: white;
+  font-size: small;
+  width: fit-content;
+  border-radius: 7px;
+  border: none;
+}
+.remove{
+  padding: 5px 22px;
+  background-color: #C1C1C1;
+  color: black;
+  font-size: small;
+  width: fit-content;
+  border-radius: 7px;
+  border: none;
+}
+.days{
+  background-color: white;
+  color: black;
+  font-size: small;
+  width: 16vh;
+  border: 1px solid #39748B;
+  border-radius: 7px;
+  padding: 5px 0px;
+}
+
+#b1{
+  display:none;
+}
+#b2{
+  display:none;
+}
+#d1{
+  display:none;
+}
+.tab{
+  display: none;
 }

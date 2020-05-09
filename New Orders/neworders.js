@@ -6,3 +6,8 @@
                                $this.button('reset');
                            }, 8000);
                         });
+    function displaycn(){
+      var trd = $(this).parent("tr");
+      var rowid = trd.attr("id");
+      $(rowid).children(".cwrite").hide();
+    }
