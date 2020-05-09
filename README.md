@@ -12,27 +12,6 @@ https://muskantewari.github.io/Sleefax-Project/Completed%20Orders/completedorder
 Order History:
 https://muskantewari.github.io/Sleefax-Project/Order%20History/orderhistory
 
-Sign Up (Page 1):
-https://muskantewari.github.io/Sleefax-Project/SignUp%20page1/signup1
-
-Sign Up (Page 2):
-https://muskantewari.github.io/Sleefax-Project/SignUp%20page2/signup2
-
-Sign Up (Page 3):
-https://muskantewari.github.io/Sleefax-Project/SignUp%20page3/signup3
-
-Sign Up (Page 4):
-https://muskantewari.github.io/Sleefax-Project/SignUp%20page4/signup4
-
-Settings (Basic Information)
-https://muskantewari.github.io/Sleefax-Project/Settings%20Basic%20Information/basicinfo
-
-Settings (Change Password)
-https://muskantewari.github.io/Sleefax-Project/Settings%20Change%20Password/changepassword
-
-Settings (Pricing)
-https://muskantewari.github.io/Sleefax-Project/Settings%20Pricing/pricing
-
 Settings 
 https://muskantewari.github.io/Sleefax-Project/Settings/settings
 
