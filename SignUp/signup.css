@@ -281,12 +281,14 @@ input.invalid {
   position: relative;
 }
 .st{
+  background-color: white;;
   height:fit-content;
   border: solid 1px #707070;
   border-radius: 10px;
   padding: 25px 0px 25px 9px;
 }
 .selday{
+  background-color: white;
   padding: 8px 16px;
   border: solid 1px #707070;
   border-radius: 5px;
@@ -320,6 +322,15 @@ input.invalid {
   border-radius: 7px;
   border: none;
 }
+.clickbut{
+  background-color: #57B1D5;
+  color: black;
+  font-size: small;
+  width: 16vh;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 0px;
+}
 .days{
   background-color: white;
   color: black;
@@ -329,7 +340,11 @@ input.invalid {
   border-radius: 7px;
   padding: 5px 0px;
 }
-
+.fromto{
+  border: solid 1px #7E7E7E; 
+  border-radius: 6px; 
+  width:8vh; 
+}
 #b1{
   display:none;
 }

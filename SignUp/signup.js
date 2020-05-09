@@ -117,3 +117,12 @@ function removed1(){
 function removeb1(){
   document.getElementById("b1").style.display = "none";
 }
+
+$(".days").click(function(){
+  $(this).css('background', "#57B1D5");
+  $(this).css('color', "white");
+});
+$(".days").dblclick(function(){
+  $(this).css('background', "white");
+  $(this).css('color', "black");
+});
